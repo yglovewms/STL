@@ -1,0 +1,5 @@
+syntax = "proto3";
+message HelloWorld {
+    optional string hello = 1;
+    optional int32 page_number = 2;
+}
